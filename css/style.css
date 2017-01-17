@@ -1,0 +1,417 @@
+* {
+  box-sizing: border-box;
+}
+
+ body {
+   font-family: "Helvetica Neue", "Helvetica", sans-serif;
+   background-color: lightgrey;
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+
+img {
+  display: block;
+  width: 100%;
+}
+
+#app-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.column-cont {
+  display: inline-block;
+  font-size: 0;
+  vertical-align: top;
+}
+
+/*//////////////////////////
+//////TOP LOGO IMAGES////
+//////////////////////////*/
+
+.nav {
+  width: 100%;
+  background-color: #333;
+}
+
+.logo {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.label {
+  width: 55%;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 10px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.label img {
+  width: 100%;
+}
+
+/*//////////////////////////
+//////FIRST NAVIGATION BAR
+/////UNDER TOP LOGOS///////
+//////////////////////////*/
+
+.site-nav-main {
+  font-size: medium;
+  color: white;
+  width: 75%;
+  padding-bottom: 5px;
+}
+
+.site-nav-main a {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*//////////////////////////
+//////SMALL NAVIGATION BAR///
+//////UNDER MAIN TOP NAV////
+//////////////////////////*/
+
+.site-nav-secondary {
+  padding: 25px 20px 15px 25px;
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.site-nav-secondary button {
+  font-size: medium;
+  text-decoration: none;
+}
+
+.reg {
+  border: 1px solid #fdfecd;
+  color: lightblue;
+  background-color: #fdfecd;
+  padding: 8px 5px;
+  margin-right: 10px;
+}
+
+.dif {
+  border: 1px solid lightblue;
+  color: grey;
+  background-color: lightblue;
+  padding: 8px 5px;
+}
+
+/*//////////////////////////
+//////CONTAINER FOR MAIN CONTENT
+////AND UPCOMING EVENTS DIVS////
+//////////////////////////*/
+
+.left-right-cont {
+  width: 100%;
+}
+
+/*//////////////////////////
+//////MAIN CONTENT PARAGRAPH
+//////////DIVS//////////////
+//////////////////////////*/
+
+.main-content {
+  margin-left: 20px;
+  margin-right: 0;
+  width: 72%;
+  display: inline-block;
+}
+
+/*//////////////////////////
+//////MAIN HEADER BEFORE
+////MAIN CONTENT/PARAGRAPHS///
+//////////////////////////*/
+
+.heading {
+  font-size: 22px;
+  font-weight: 100;
+  width: 100%;
+}
+
+/*//////////////////////////
+//////FIRST PARAGRAPH////
+//////////////////////////*/
+
+.about {
+  font-size: medium;
+  width: 100%;
+  line-height: 1.5;
+}
+
+.about p {
+  font-size: 14px;
+  padding-bottom: 20px;
+  margin-top: 0;
+}
+
+.about h1 {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+/*//////////////////////////
+//////SECOND PARAGRAPH////
+//////////////////////////*/
+
+.legacy {
+  font-size: medium;
+  width: 100%;
+  line-height: 1.5;
+}
+
+.legacy p {
+  font-size: 14px;
+  padding-bottom: 20px;
+  margin-top: 0;
+}
+
+.legacy h1 {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+/*//////////////////////////
+//////THIRD PARAGRAPH////
+//////////////////////////*/
+
+.future {
+  font-size: medium;
+  width: 100%;
+  line-height: 1.5;
+}
+
+.future-header {
+  width: 100%
+}
+
+.future-text {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+  padding-bottom: 20px;
+  margin-right: 12px;
+}
+
+.future-text p {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.future-image {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding-bottom: 20px;
+}
+
+.future a {
+  text-decoration: none;
+  color: #3E7FBB;
+  font-weight: 600;
+}
+
+.future h1 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/*//////////////////////////
+//////FOURTH PARAGRAPH/////
+//////////////////////////*/
+
+.alfred {
+  font-size: medium;
+  width: 100%;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.alfred-header {
+  width: 100%;
+}
+
+.alfred-image {
+  width: 40%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 25px;
+}
+
+.alfred-text {
+  width: 55%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+}
+
+.alfred-text strong {
+  font-style: italic;
+}
+
+.bold p {
+  margin: 1px 0;
+}
+
+.alfred h1 {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+/*//////////////////////////
+//////FOOTER DIV////////////
+//////////////////////////*/
+
+.footer {
+  display: inline-block;
+  font-size: 13px;
+  width: 100%;
+  text-align: left;;
+  padding: 15px 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer span {
+  color: #db4b38;
+}
+
+.mfah {
+  border-bottom: dotted 1px black;
+}
+/*//////////////////////////
+//////UPCOMING EVENTS//////
+////////RIGHT SIDE DIV/////
+//////////////////////////*/
+
+.upcoming-events {
+  font-size: medium;
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 35px;
+  margin-right: 5px;
+  margin-top: 50px;
+}
+
+.upcoming-events hr {
+  border: none;
+  border-bottom: dashed grey 1px;
+}
+
+.upcoming-header {
+  width: 100%;
+}
+
+.event {
+  width: 100%;
+}
+
+.event-image {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.event-text {
+  width: 65%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5px;
+}
+
+.top {
+  font-size: 10px;
+  color: grey;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.title {
+  color: #3E7FBB;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.time {
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.view-all {
+  text-align: right;
+  width: 100%
+}
+
+.view-all a {
+  text-decoration: none;
+  color: #3E7FBB;
+  font-weight: 600;
+}
+
+
+/*//////////////////////////
+//////FIXED SIGN-UP BOX////
+//////////////////////////*/
+
+.sign-up {
+  position: fixed;
+  right: 1%;
+  bottom: 8%;
+  width: 22%;
+  font-size: medium;
+  border: 1px solid #3a539b;
+  background-color: #3a539b;
+  opacity: .9;
+  padding: 5px 15px 15px 15px;
+}
+
+.fa-envelope-o,
+.fa-ticket {
+  color: #DB4B38;
+}
+
+.sign-up a {
+  text-decoration: none;
+  color: white;
+}
+
+.sign-up p {
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.sign-up button {
+  padding: 8px;
+  text-align: center;
+  font-size: 10px;
+  margin-left: -2px;
+}
+
+.sign-up input {
+  width: 90%;
+  padding: 4px;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.fa-search {
+  color: black;
+}
